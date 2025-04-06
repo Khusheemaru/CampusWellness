@@ -1,0 +1,4 @@
+const crypto = require('crypto');
+
+console.log('JWT_SECRET:', crypto.randomBytes(32).toString('hex'));
+console.log('EMAIL_SECRET:', crypto.randomBytes(32).toString('hex'));
